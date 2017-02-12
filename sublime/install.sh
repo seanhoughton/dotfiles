@@ -15,7 +15,7 @@ function symlink_preference() {
 	original="$prefix/$name"
 	new="$HOME/.dotfiles/sublime/$name"
 	if [ -f "$original" ]; then
-    	mv "$original" "${original}.backup"
+     	mv "$original" "${original}.backup"
 	fi
 	if [ ! -h "$original" ]; then
 		ln -s "$new" "$original"
@@ -25,5 +25,5 @@ function symlink_preference() {
 echo 'Linking SublimeText preferences'
 symlink_preference 'Preferences.sublime-settings'
 symlink_preference 'Anaconda.sublime-settings'
-symlink_preference $keymap
+symlink_preference "$keymap"
 
