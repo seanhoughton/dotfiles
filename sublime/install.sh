@@ -1,7 +1,18 @@
+#!/usr/bin/env bash
+set -e
+
+if [ "$(uname -s)" == "Darwin" ]; then
+	prefix="$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+	keymap="Default (OSX).sublime-keymap"
+else
+	prefix="$HOME/.config/sublime-text-3/Packages/User"
+	keymap="Default (Linux).sublime-keymap"
+fi
+
 
 function symlink_preference() {
 	name=$1
-	original="$HOME/Library/Application Support/Sublime Text 3/Packages/User/$name"
+	original="$prefix/$name"
 	new="$HOME/.dotfiles/sublime/$name"
 	if [ -f "$original" ]; then
 		echo "Making a backup of ${original}"
@@ -15,5 +26,5 @@ function symlink_preference() {
 
 symlink_preference 'Preferences.sublime-settings'
 symlink_preference 'Anaconda.sublime-settings'
-symlink_preference 'Default (OSX).sublime-keymap'
+symlink_preference $keymap
 

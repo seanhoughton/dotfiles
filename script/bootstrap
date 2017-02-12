@@ -152,5 +152,10 @@ then
   fi
 fi
 
+# If we're on Ubuntu install apt packages
+if [ "$(uname -s)" == "Linux" ]
+then
+  sudo apt-get install $(cat ${DOTFILES_ROOT}/Aptfile)
+fi
 echo ''
 echo '  All installed!'
