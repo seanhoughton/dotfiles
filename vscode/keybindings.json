@@ -1,0 +1,12 @@
+[
+{ "key": "ctrl+right",             "command": "cursorWordEndRight",
+                                     "when": "editorTextFocus" },
+{ "key": "shift+ctrl+right",       "command": "cursorWordEndRightSelect",
+                                     "when": "editorTextFocus" },
+{ "key": "ctrl+left",              "command": "cursorWordStartLeft",
+                                     "when": "editorTextFocus" },
+{ "key": "shift+ctrl+left",        "command": "cursorWordStartLeftSelect",
+                                     "when": "editorTextFocus" },
+{ "key": "ctrl+f",                 "command": "actions.find" }
+
+]

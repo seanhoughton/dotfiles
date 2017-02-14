@@ -23,3 +23,6 @@ function symlink_preference() {
 
 echo 'Linking Visual Studio Code preferences'
 symlink_preference 'settings.json'
+symlink_preference 'keybindings.json'
+
+#gem install puppet-lint
