@@ -10,9 +10,21 @@ if [ "$(uname -s)" == "Darwin" ]; then
 	# Run Homebrew through the Brewfile
 	echo "› brew bundle"
 	brew bundle
+
 else
 	echo "> apt-get install"
 	sudo apt-get install -y $(cat Aptfile)
 fi
+
+
+while read -u 10 gemname; do
+  if [ "$(uname -s)" == "Darwin" ]; then
+  	brew gem install $gemname
+  else
+  	sudo brew install $gemname
+  fi
+done <ruby/global.gems
+
+
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
