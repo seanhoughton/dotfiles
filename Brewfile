@@ -30,6 +30,7 @@ brew 'yarn'
 brew 'youtube-dl'
 
 cask '1password'
+cask 'beyond-compare'
 cask 'cyberduck'
 cask 'docker'
 cask 'evernote'
