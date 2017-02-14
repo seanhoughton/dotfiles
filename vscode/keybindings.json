@@ -7,6 +7,11 @@
                                      "when": "editorTextFocus" },
 { "key": "shift+ctrl+left",        "command": "cursorWordStartLeftSelect",
                                      "when": "editorTextFocus" },
-{ "key": "ctrl+f",                 "command": "actions.find" }
+{ "key": "ctrl+f",                 "command": "actions.find" },
+{ "key": "shift+cmd+o",            "command": "workbench.action.quickOpen" },
+{ "key": "shift+ctrl+down",              "command": "editor.action.moveLinesDownAction",
+                                     "when": "editorTextFocus && !editorReadonly" },
+{ "key": "shift+ctrl+up",                "command": "editor.action.moveLinesUpAction",
+                                     "when": "editorTextFocus && !editorReadonly" }
 
 ]
