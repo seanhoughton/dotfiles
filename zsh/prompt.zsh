@@ -58,7 +58,11 @@ battery_status() {
   $ZSH/bin/battery-status
 }
 
-export PROMPT=$'\n$(directory_name) $(git_dirty)$(need_push)› '
+host_name() {
+  hostname
+}
+
+export PROMPT=$'\n[$(host_name)] $(directory_name) $(git_dirty)$(need_push)› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
