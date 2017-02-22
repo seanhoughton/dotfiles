@@ -1,0 +1,15 @@
+<parkdata>
+    <device name="Telescope Simulator">
+        <parkstatus>
+false
+        </parkstatus>
+        <parkposition>
+            <axis1position>
+0.000000
+            </axis1position>
+            <axis2position>
+0.000000
+            </axis2position>
+        </parkposition>
+    </device>
+</parkdata>
