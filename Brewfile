@@ -1,9 +1,12 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/homebrew-science'
 tap 'puma/puma'
 
 brew 'ack'
+brew 'astrometry-net'
+brew 'cfitsio'
 brew 'coreutils'
 brew 'ctags'
 brew 'go'
@@ -13,6 +16,7 @@ brew 'jp2a'
 brew 'jq'
 brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
+brew 'md5sha1sum'
 brew 'openssl'
 brew 'node'
 brew 'readline'
