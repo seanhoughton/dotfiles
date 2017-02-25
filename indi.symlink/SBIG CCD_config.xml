@@ -1,0 +1,234 @@
+<INDIDriver>
+<newSwitchVector device='SBIG CCD' name='DEBUG'>
+  <oneSwitch name='ENABLE'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='DISABLE'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='SBIG CCD' name='DEBUG_LEVEL'>
+  <oneSwitch name='DBG_ERROR'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_WARNING'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_SESSION'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_DEBUG'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='DBG_EXTRA_1'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='SBIG CCD' name='LOGGING_LEVEL'>
+  <oneSwitch name='LOG_ERROR'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_WARNING'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_SESSION'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_DEBUG'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='LOG_EXTRA_1'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='SBIG CCD' name='LOG_OUTPUT'>
+  <oneSwitch name='CLIENT_DEBUG'>
+      On
+  </oneSwitch>
+  <oneSwitch name='FILE_DEBUG'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newTextVector device='SBIG CCD' name='ACTIVE_DEVICES'>
+  <oneText name='ACTIVE_TELESCOPE'>
+      Telescope Simulator
+  </oneText>
+  <oneText name='ACTIVE_FOCUSER'>
+      Focuser Simulator
+  </oneText>
+  <oneText name='ACTIVE_FILTER'>
+      SBIG CCD
+  </oneText>
+  <oneText name='ACTIVE_SKYQUALITY'>
+      SQM
+  </oneText>
+</newTextVector>
+<newSwitchVector device='SBIG CCD' name='UPLOAD_MODE'>
+  <oneSwitch name='UPLOAD_CLIENT'>
+      On
+  </oneSwitch>
+  <oneSwitch name='UPLOAD_LOCAL'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='UPLOAD_BOTH'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newTextVector device='SBIG CCD' name='UPLOAD_SETTINGS'>
+  <oneText name='UPLOAD_DIR'>
+      /Users/shoughton
+  </oneText>
+  <oneText name='UPLOAD_PREFIX'>
+      IMAGE_XXX
+  </oneText>
+</newTextVector>
+<newSwitchVector device='SBIG CCD' name='TELESCOPE_TYPE'>
+  <oneSwitch name='TELESCOPE_PRIMARY'>
+      On
+  </oneSwitch>
+  <oneSwitch name='TELESCOPE_GUIDE'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='SBIG CCD' name='CCD_COMPRESSION'>
+  <oneSwitch name='CCD_COMPRESS'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CCD_RAW'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newNumberVector device='SBIG CCD' name='CCD_FRAME'>
+  <oneNumber name='X'>
+      0
+  </oneNumber>
+  <oneNumber name='Y'>
+      0
+  </oneNumber>
+  <oneNumber name='WIDTH'>
+      3352
+  </oneNumber>
+  <oneNumber name='HEIGHT'>
+      2532
+  </oneNumber>
+</newNumberVector>
+<newNumberVector device='SBIG CCD' name='CCD_BINNING'>
+  <oneNumber name='HOR_BIN'>
+      1
+  </oneNumber>
+  <oneNumber name='VER_BIN'>
+      1
+  </oneNumber>
+</newNumberVector>
+<newTextVector device='SBIG CCD' name='ASTROMETRY_SETTINGS'>
+  <oneText name='ASTROMETRY_SETTINGS_BINARY'>
+      /usr/bin/solve-field
+  </oneText>
+  <oneText name='ASTROMETRY_SETTINGS_OPTIONS'>
+      --no-verify --no-plots --no-fits2fits --resort --downsample 2 -O
+  </oneText>
+</newTextVector>
+<newSwitchVector device='SBIG CCD' name='DEVICE_PORT_TYPE'>
+  <oneSwitch name='Ethernet'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='USB 1'>
+      On
+  </oneSwitch>
+  <oneSwitch name='USB 2'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='USB 3'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='USB 4'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='LPT 1'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='LPT 2'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='LPT 3'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newTextVector device='SBIG CCD' name='IP_ADDRESS'>
+  <oneText name='IP'>
+      192.168.0.100
+  </oneText>
+</newTextVector>
+<newNumberVector device='SBIG CCD' name='FILTER_SLOT'>
+  <oneNumber name='FILTER_SLOT_VALUE'>
+      1
+  </oneNumber>
+</newNumberVector>
+<newTextVector device='SBIG CCD' name='FILTER_NAME'>
+  <oneText name='FILTER_SLOT_NAME_1'>
+      UV/IR
+  </oneText>
+  <oneText name='FILTER_SLOT_NAME_2'>
+      Ha
+  </oneText>
+  <oneText name='FILTER_SLOT_NAME_3'>
+      SII
+  </oneText>
+  <oneText name='FILTER_SLOT_NAME_4'>
+      OIII
+  </oneText>
+  <oneText name='FILTER_SLOT_NAME_5'>
+      empty
+  </oneText>
+</newTextVector>
+<newSwitchVector device='SBIG CCD' name='CFW_TYPE'>
+  <oneSwitch name='CFW1'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW2'>
+      On
+  </oneSwitch>
+  <oneSwitch name='CFW3'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW4'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW5'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW6'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW7'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW8'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW9'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW10'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW11'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW12'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW13'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW14'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW15'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='CFW16'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+</INDIDriver>
