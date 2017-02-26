@@ -1,0 +1,103 @@
+[Align]
+SolverGotoOption=1
+SolverOptions=--no-verify --no-plots --resort --no-fits2fits --downsample 2 -O -L 19.3223 -H 26.6952 -u aw
+SolverType=1
+
+[Capture]
+DefaultCaptureCCD=SBIG CCD
+
+[Catalogs]
+ShowCatalogNames=_Internet_Resolved,_Manual_Additions,_Internet_Resolved,_Manual_Additions
+
+[Colors]
+AngularRuler=#445566
+ArtificialHorizonColor=#c82828
+BoxBGColor=#000000
+BoxGrabColor=#900000
+BoxTextColor=#d2dbef
+CBoundColor=#222f2f
+CBoundHighColor=#445555
+CLineColor=#3d3d3d
+CNameColor=#718488
+ColorSchemeFile=moonless-night.colors
+CompassColor=#909055
+DEGuideError=#00a5ff
+DSNameColor=#75759c
+EclColor=#613d12
+EqColor=#909090
+EquatorialGridColor=#445566
+FITSObjectLabelColor=#00ff00
+HSTColor=#930000
+HorizontalGridColor=#091f14
+HorzColor=#091f14
+ICColor=#382a7d
+MWColor=#0d1115
+MessColor=#008f00
+NGCColor=#006666
+ObsListColor=#ff0000
+PNameColor=#ac9800
+PlanetTrailColor=#993311
+RAGuideError=#00ff00
+SNameColor=#577d7d
+SatColor=#ff0000
+SatLabelColor=#640000
+SkyColor=#000000
+SolverFOVColor=#ffffff
+StarColorIntensity=5
+StarColorMode=0
+StarHopRouteColor=#00ffff
+SupernovaColor=#ffa500
+TargetColor=#dd0000
+UserLabelColor=#aaaaaa
+VisibleSatColor=#00ff00
+
+[Ekos]
+astrometryConfFileIsInternal=true
+astrometrySolverIsInternal=true
+wcsIsInternal=true
+
+[GUI]
+PositionFocusBox=1054,0
+PositionGeoBox=0,848
+RunStartupWizard=false
+WindowHeight=925
+WindowWidth=1280
+
+[Location]
+CityName=Los Angeles
+CountryName=USA
+DST=US
+Latitude=34.05416666666667
+Longitude=-118.24083333333333
+ProvinceName=California
+TimeZone=-8
+
+[MainWindow]
+Height 1050=925
+Height 1200=925
+Height 1692=1028
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABQAAAANmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAaAGsAcwB0AGEAcgBzAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdgBpAGUAdwBUAG8AbwBsAEIAYQByAQAAAdX/////AAAAAAAAAAAAAAAWAEkATgBEAEkAVABvAG8AbABCAGEAcgEAAAOn/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1680=1280
+Width 1920=1280
+Width 3008=1280
+
+[TipOfDay]
+RunOnStart=false
+
+[View]
+FocusDec=-11.825945539433235
+FocusRA=23.553616265906197
+IsTracking=true
+ZoomFactor=1000
+
+[Xplanet]
+XplanetBackgroundColorValue=#000000
+XplanetColor=#ff0000
+xplanetIsInternal=true
+
+[indi]
+fitsDir=/Users/seanhoughton
+indiDriversDir=/usr/local/bin/
+indiServer=/usr/local/bin/indiserver
