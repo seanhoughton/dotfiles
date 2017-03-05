@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitGutter",
 		"HexViewer",
@@ -13,6 +14,8 @@
 		"Package Control",
 		"Puppet",
 		"Solarized Color Scheme",
-		"SublimeLinter-contrib-puppet-lint"
+		"SublimeLinter",
+		"SublimeLinter-contrib-puppet-lint",
+		"SublimeLinter-shellcheck"
 	]
 }
