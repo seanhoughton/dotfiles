@@ -5,4 +5,6 @@
     ],
 
     "pep8_max_line_length": 1024,
+
+    "python_interpreter": "python3",
 }
