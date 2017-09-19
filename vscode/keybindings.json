@@ -24,5 +24,26 @@
 { "key": "ctrl+backspace",     "command": "deleteWordLeft",
                                "when": "editorTextFocus && !editorReadonly" },
 { "key": "ctrl+delete",        "command": "deleteWordRight",
-                               "when": "editorTextFocus && !editorReadonly" }
-]
+                            "when": "editorTextFocus && !editorReadonly"
+                        },
+                        {
+                            "key": "ctrl+end",
+                            "command": "workbench.action.terminal.scrollToBottom",
+                            "when": "terminalFocus"
+                        },
+                        {
+                            "key": "cmd+end",
+                            "command": "-workbench.action.terminal.scrollToBottom",
+                            "when": "terminalFocus"
+                        },
+                        {
+                            "key": "ctrl+home",
+                            "command": "workbench.action.terminal.scrollToTop",
+                            "when": "terminalFocus"
+                        },
+                        {
+                            "key": "cmd+home",
+                            "command": "-workbench.action.terminal.scrollToTop",
+                            "when": "terminalFocus"
+                        }
+                    ]
