@@ -1,10 +1,10 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'homebrew/homebrew-science'
-tap 'caskroom/drivers'
+#tap 'homebrew/homebrew-science'
+#tap 'caskroom/drivers'
 tap 'puma/puma'
-tap 'seanhoughton/homebrew-astronomy'
+# tap 'seanhoughton/homebrew-astronomy'
 
 brew 'ack'
 brew 'astrometry-net'
