@@ -1,2 +1,3 @@
 export GOPATH=$PROJECTS/go
+export GO15VENDOREXPERIMENT=1
 export PATH="$GOPATH/bin:$PATH"
