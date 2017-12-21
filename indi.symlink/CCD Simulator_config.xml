@@ -108,10 +108,10 @@
       0
   </oneNumber>
   <oneNumber name='WIDTH'>
-      0
+      1280
   </oneNumber>
   <oneNumber name='HEIGHT'>
-      0
+      1024
   </oneNumber>
 </newNumberVector>
 <newNumberVector device='CCD Simulator' name='CCD_BINNING'>
@@ -132,16 +132,16 @@
 </newTextVector>
 <newNumberVector device='CCD Simulator' name='SIMULATOR_SETTINGS'>
   <oneNumber name='SIM_XRES'>
-      1280
+      1663
   </oneNumber>
   <oneNumber name='SIM_YRES'>
-      1024
+      1252
   </oneNumber>
   <oneNumber name='SIM_XSIZE'>
-      5.2000000000000001776
+      10.800000000000000711
   </oneNumber>
   <oneNumber name='SIM_YSIZE'>
-      5.2000000000000001776
+      10.800000000000000711
   </oneNumber>
   <oneNumber name='SIM_MAXVAL'>
       65000
@@ -156,7 +156,7 @@
       17
   </oneNumber>
   <oneNumber name='SIM_NOISE'>
-      10
+      9.3000000000000007105
   </oneNumber>
   <oneNumber name='SIM_SKYGLOW'>
       19.5

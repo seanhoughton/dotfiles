@@ -23,6 +23,9 @@
   <oneSwitch name='DBG_EXTRA_1'>
       Off
   </oneSwitch>
+  <oneSwitch name='DBG_EXTRA_2'>
+      Off
+  </oneSwitch>
 </newSwitchVector>
 <newSwitchVector device='Telescope Simulator' name='LOGGING_LEVEL'>
   <oneSwitch name='LOG_ERROR'>
@@ -38,6 +41,9 @@
       Off
   </oneSwitch>
   <oneSwitch name='LOG_EXTRA_1'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='LOG_EXTRA_2'>
       Off
   </oneSwitch>
 </newSwitchVector>
@@ -109,10 +115,10 @@
 </newNumberVector>
 <newNumberVector device='Telescope Simulator' name='TELESCOPE_INFO'>
   <oneNumber name='TELESCOPE_APERTURE'>
-      120
+      70
   </oneNumber>
   <oneNumber name='TELESCOPE_FOCAL_LENGTH'>
-      900
+      300
   </oneNumber>
   <oneNumber name='GUIDER_APERTURE'>
       120
@@ -152,9 +158,4 @@
       BUTTON_3
   </oneText>
 </newTextVector>
-<newSwitchVector device='Telescope Simulator' name='JOYSTICK_LOCK_AXIS'>
-  <oneSwitch name='LOCK_AXIS'>
-      Off
-  </oneSwitch>
-</newSwitchVector>
 </INDIDriver>

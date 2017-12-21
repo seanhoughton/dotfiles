@@ -1,5 +1,21 @@
 [Align]
-SolverGotoOption=1
+AlignExposure=10
+AstrometryAPIKey=cftqkfwiybynyebh
+AstrometryConfFile=*Internal astrometry.cfg*
+AstrometryConfFileIsInternal=true
+AstrometryImageScaleHigh=207.41989282524716
+AstrometryImageScaleLow=156.67874959234067
+AstrometryPositionDE=36.3917
+AstrometryPositionRA=60.33225
+AstrometrySolverBinary=*Internal Solver*
+AstrometrySolverIsInternal=true
+AstrometrySolverVerbose=true
+AstrometryUseNoFITS2FITS=false
+AstrometryWCSInfo=*Internal wcsinfo*
+AstrometryWCSIsInternal=true
+DefaultAlignCCD=CCD Simulator
+SolverBinningIndex=3
+SolverGotoOption=0
 SolverOptions=--no-verify --no-plots --resort --no-fits2fits --downsample 2 -O -L 19.3223 -H 26.6952 -u aw
 SolverType=1
 
@@ -23,6 +39,7 @@ ColorSchemeFile=moonless-night.colors
 CompassColor=#909055
 DEGuideError=#00a5ff
 DSNameColor=#75759c
+DarkAppColors=false
 EclColor=#613d12
 EqColor=#909090
 EquatorialGridColor=#445566
@@ -52,16 +69,23 @@ UserLabelColor=#aaaaaa
 VisibleSatColor=#00ff00
 
 [Ekos]
+EkosWindowHeight=1080
+EkosWindowWidth=1771
 astrometryConfFileIsInternal=true
 astrometrySolverIsInternal=true
+profile=Hardware
 wcsIsInternal=true
 
+[Focus]
+FocusMaxTravel=50000
+FocusXBin=4
+
 [GUI]
-PositionFocusBox=1054,0
-PositionGeoBox=0,848
+PositionFocusBox=1691,0
+PositionGeoBox=81,1003
 RunStartupWizard=false
-WindowHeight=925
-WindowWidth=1280
+WindowHeight=1080
+WindowWidth=1920
 
 [Location]
 CityName=Los Angeles
@@ -74,23 +98,27 @@ TimeZone=-8
 
 [MainWindow]
 Height 1050=925
-Height 1200=925
-Height 1692=1028
+Height 1200=820
+Height 1692=925
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABQAAAANmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAaAGsAcwB0AGEAcgBzAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdgBpAGUAdwBUAG8AbwBsAEIAYQByAQAAAdX/////AAAAAAAAAAAAAAAWAEkATgBEAEkAVABvAG8AbABCAGEAcgEAAAOn/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAGQAAAEAfwCAAAAAfsAAAAkAFcAaABhAHQAJwBzACAASQBuAHQAZQByAGUAcwB0AGkAbgBnAAAAACIAAAQBAAAAAAAAAAAAAAeAAAAEAQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAADAAAAGgBrAHMAdABhAHIAcwBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAWAHYAaQBlAHcAVABvAG8AbABCAGEAcgEAAAHV/////wAAAAAAAAAAAAAAFgBJAE4ARABJAFQAbwBvAGwAQgBhAHIBAAADp/////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1680=1280
-Width 1920=1280
+Width 1920=1327
 Width 3008=1280
+Window-Maximized 1200x1920=true
 
 [TipOfDay]
 RunOnStart=false
 
 [View]
-FocusDec=-11.825945539433235
-FocusRA=23.553616265906197
-IsTracking=true
-ZoomFactor=1000
+FOVNames=ST8300M on 300L,ST8300M on 50mm
+FocusDec=29.75778062907761
+FocusObject=nothing
+FocusRA=199.15936520677644
+IsTracking=false
+ShowCLines=true
+ZoomFactor=4756.82845991293
 
 [Xplanet]
 XplanetBackgroundColorValue=#000000
@@ -98,6 +126,9 @@ XplanetColor=#ff0000
 xplanetIsInternal=true
 
 [indi]
+INDIWindowHeight=684
 fitsDir=/Users/seanhoughton
-indiDriversDir=/usr/local/bin/
-indiServer=/usr/local/bin/indiserver
+indiDriversAreInternal=true
+indiDriversDir=*Internal INDI Drivers*
+indiServer=*Internal INDI Server*
+indiServerIsInternal=true

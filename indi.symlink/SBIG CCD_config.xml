@@ -76,7 +76,7 @@
 </newSwitchVector>
 <newTextVector device='SBIG CCD' name='UPLOAD_SETTINGS'>
   <oneText name='UPLOAD_DIR'>
-      /Users/shoughton
+      /Users/seanhoughton
   </oneText>
   <oneText name='UPLOAD_PREFIX'>
       IMAGE_XXX
