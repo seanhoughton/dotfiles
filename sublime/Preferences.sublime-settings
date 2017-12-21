@@ -1,8 +1,9 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"font_size": 18,
 	"ignored_packages":
 	[
+		"Jinja2",
 		"Markdown",
 		"Vintage"
 	],
