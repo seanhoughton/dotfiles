@@ -12,7 +12,7 @@
   "editor.tabSize": 4,
 
   // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "boundary",
 
   // Configure glob patterns for excluding files and folders.
   "files.exclude": {
