@@ -1,0 +1,4 @@
+"env": {
+        "GOPATH": "/home/shoughton/Code/go",
+        "PATH": "/home/shoughton/Code/go/bin:$PATH:/usr/bin",
+    },
