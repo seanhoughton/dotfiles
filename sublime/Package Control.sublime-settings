@@ -7,6 +7,7 @@
 	[
 		"Anaconda",
 		"AutoPEP8",
+		"Bison",
 		"Case Conversion",
 		"Coffee Color Scheme",
 		"CoffeeAngular Syntax",
@@ -14,6 +15,8 @@
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitGutter",
+		"Gofmt",
+		"GoSublime",
 		"HexViewer",
 		"INI",
 		"Javascript Beautify",
@@ -28,10 +31,12 @@
 		"Predawn",
 		"Pretty JSON",
 		"Puppet",
+		"QML",
 		"Solarized Color Scheme",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-puppet-lint",
+		"SublimeLinter-golint",
 		"SublimeLinter-shellcheck",
 		"TypeScript"
 	]

@@ -14,6 +14,7 @@ function symlink_preference() {
 	name=$1
 	original="$prefix/Packages/User/$name"
 	new="$HOME/.dotfiles/sublime/$name"
+	echo "Linking $original -> $new"
 	if [ -f "$original" ]; then
      	rm "$original"
 	fi
@@ -22,13 +23,16 @@ function symlink_preference() {
 	fi
 }
 
-echo 'Linking SublimeText preferences'
+echo 'Linking SublimeText preference files...'
 if [ ! -f "$prefix/Installed Packages/Package Control.sublime-package" ]; then
 	curl -s -f "https://packagecontrol.io/Package%20Control.sublime-package" > "$prefix/Installed Packages/Package Control.sublime-package"
 fi
-symlink_preference 'Preferences.sublime-settings'
-symlink_preference 'Anaconda.sublime-settings'
-symlink_preference 'Package Control.sublime-settings'
+
+cd "${prefix}/Packages/User"
+find . -type f -name "*.sublime-settings" | while read f; do
+	symlink_preference $(basename "${f}")
+done
+
 symlink_preference "$keymap"
 
 
