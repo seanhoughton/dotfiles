@@ -45,5 +45,13 @@
                             "key": "cmd+home",
                             "command": "-workbench.action.terminal.scrollToTop",
                             "when": "terminalFocus"
+                        },
+                        {
+                            "key": "f7",
+                            "command": "workbench.action.tasks.build"
+                        },
+                        {
+                            "key": "shift+cmd+b",
+                            "command": "-workbench.action.tasks.build"
                         }
                     ]
